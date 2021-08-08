@@ -440,6 +440,11 @@ article.nextSlide {
   color: #f29049;
   font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 3rem 2rem;
+  }
+}
 
 /* Gallery */
 
@@ -576,7 +581,7 @@ input::placeholder {
 @media screen and (max-width: 768px) {
   .contact-section {
     grid-template-columns: 1fr;
-    padding: 2rem;
+    padding: 3rem 2rem;
     grid-gap: 2rem;
   }
   input,
